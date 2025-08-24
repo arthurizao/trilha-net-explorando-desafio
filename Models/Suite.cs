@@ -1,14 +1,14 @@
 namespace DesafioProjetoHospedagem.Models
 {
-    public class Suite
+    public class Acomodacao
     {
-        public Suite() { }
+        public Acomodacao() { }
 
-        public Suite(string tipoSuite, int capacidade, decimal valorDiaria)
+        public Acomodacao(string tipo, int capacidadeMaxima, decimal custoPorDiaria)
         {
-            TipoSuite = tipoSuite;
-            Capacidade = capacidade;
-            ValorDiaria = valorDiaria;
+            TipoSuite = tipo;
+            Capacidade = capacidadeMaxima;
+            ValorDiaria = custoPorDiaria;
         }
 
         public string TipoSuite { get; set; }
